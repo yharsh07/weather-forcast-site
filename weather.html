@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        weather Forcast
+    </title>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+        <input type="text" id="search" value="Kanpur" onchange="getData()">
+    <div >
+      <h1 id="temp">14<sup>o</sup></h1>
+      <p style="text-align: center; color: aliceblue; font-size: xx-large;"> Celesius</p>
+      <p class="data">Wind Speed :-<span id="ws">20</span></p>
+      <p class="data">Humidity   :-<span id="hu">20</span></p>
+    </div>
+    <div style="display: flex; justify-content: center; background-repeat: no-repeat;" >
+        <img  width="240px"   src="wett.webp" >
+    </div>
+    </div>
+   <script src="weather.js"></script>
+</body>
